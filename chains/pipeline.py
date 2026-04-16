@@ -9,13 +9,13 @@ from chains.models import ExtractedInfo, EvaluationResult
 load_dotenv()
 
 # 2. Grab the key (Hardcode it right here just for this test!)
-my_key = "Your-API-Key"
+my_key = os.getenv("OPENROUTER_API_KEY")
 
 # 3. Bulletproof OpenRouter initialization
 llm = ChatOpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=my_key,
-    openai_api_key=my_key,
+
     model="openai/gpt-4o-mini", 
     temperature=0,
     model_kwargs={

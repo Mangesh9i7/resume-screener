@@ -3,18 +3,19 @@ import os
 os.makedirs("data/resumes", exist_ok=True)
 
 job_description = """
-Role: Data Scientist
+Role: Software Engineer
 Requirements:
-- 3+ years of experience in Data Science or Machine Learning.
-- Proficient in Python, SQL, and Pandas.
-- Experience with Machine Learning frameworks like Scikit-Learn and TensorFlow.
-- Strong communication skills.
+- 2+ years of experience in software development.
+- Strong proficiency in Python and JavaScript.
+- Experience with web frameworks like Django or React.
+- Knowledge of SQL and database design.
+- Good problem-solving and teamwork skills.
 """
 
 resumes = {
-    "strong": "Experienced Data Scientist with 4 years in the industry. Expert in Python, SQL, Pandas, Scikit-Learn, and PyTorch. Deployed multiple predictive models into production. Excellent presenter and communicator.",
-    "average": "Data Analyst with 2 years of experience. Knows Python and SQL well. Uses Pandas for data manipulation. Familiar with basic machine learning concepts but has not used TensorFlow or Scikit-Learn in a professional setting.",
-    "weak": "Recent graduate with a degree in Biology. Took one introductory course in Java. Proficient in Microsoft Excel and Word. Hard worker and eager to learn."
+    "strong": "Software Engineer with 3 years of experience. Skilled in Python, JavaScript, Django, and React. Designed scalable web applications and optimized SQL databases. Strong collaborator with excellent communication skills.",
+    "average": "Junior Developer with 1.5 years of experience. Comfortable with Python and JavaScript. Built small projects using Flask and basic SQL. Eager to learn more about React and Django.",
+    "weak": "Recent graduate with a degree in History. Limited programming experience, mostly in HTML and CSS. No professional software development background yet, but motivated to learn."
 }
 
 with open("data/job_description.txt", "w") as f:
