@@ -1,0 +1,11 @@
+langchain
+langchain-openai
+pydantic
+python-dotenv
+langsmith
+fastapi
+uvicorn[standard]
+python-multipart
+pymupdf
+python-docx
+requests

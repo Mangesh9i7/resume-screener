@@ -1,0 +1,40 @@
+Alex Rivera
+Senior Software Engineer
+Email: alex.rivera@example.com | Phone: (555) 234-5678 | GitHub: github.com/alexrivera | LinkedIn: linkedin.com/in/alexrivera-dev
+Location: San Francisco, CA
+
+PROFESSIONAL SUMMARY
+Results-driven Full-Stack Software Engineer with 5+ years of experience building high-performance web applications, distributed backend services, and scalable cloud architectures. Proficient in Python, TypeScript, React, FastAPI, and Docker. Strong background in database design, RESTful API architecture, and CI/CD automation.
+
+TECHNICAL SKILLS
+- Programming Languages: Python, TypeScript, JavaScript, SQL, HTML5, CSS3
+- Backend Frameworks & Libraries: FastAPI, Flask, Django, Node.js, Express, Pydantic, SQLAlchemy
+- Frontend Frameworks: React, Next.js, Redux Toolkit, Tailwind CSS
+- Databases & Storage: PostgreSQL, MySQL, Redis, MongoDB
+- DevOps & Cloud: Docker, Kubernetes, AWS (EC2, S3, RDS, Lambda), GitHub Actions, CI/CD
+- Tools & Practices: Git, Agile/Scrum, REST APIs, Microservices, Test-Driven Development (pytest, Jest)
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | ApexCloud Solutions, San Francisco, CA
+June 2021 – Present
+- Designed and built scalable RESTful microservices in Python (FastAPI) and PostgreSQL, handling over 10M requests daily with 99.95% uptime.
+- Developed interactive web dashboards with React and TypeScript, improving user engagement by 35%.
+- Implemented distributed caching strategies using Redis, reducing API response times by 45%.
+- Containerized applications using Docker and deployed workloads onto AWS infrastructure using automated GitHub Actions CI/CD pipelines.
+- Mentored junior engineers, led code reviews, and championed best practices in unit and integration testing with pytest.
+
+Software Engineer | DevPulse Technologies, Austin, TX
+July 2019 – May 2021
+- Developed backend API endpoints using Python (Django/Flask) and integrated with third-party payment and messaging services.
+- Created responsive frontend components using React and Redux for customer-facing web applications.
+- Optimized complex SQL queries and database schemas in PostgreSQL, cutting query execution times by 30%.
+- Participated in sprint planning, agile grooming, and daily stand-ups within a cross-functional engineering team.
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of California, Berkeley | 2015 – 2019
+
+PROJECTS
+- AI Document Summarizer: Built a web tool using FastAPI, LangChain, and React to extract insights and generate summaries from large PDF documents.
+- Real-Time Task Tracker: Full-stack collaboration application featuring real-time updates via WebSockets, built with TypeScript, Node.js, and Redis.

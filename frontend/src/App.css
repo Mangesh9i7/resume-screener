@@ -1,0 +1,53 @@
+.app-container {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 32px 40px;
+  max-width: 960px;
+  width: 100%;
+}
+
+.empty-state {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 60px 30px;
+  text-align: center;
+  animation: fadeInUp 0.6s ease forwards;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  margin-top: 40px;
+}
+
+.empty-state h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #00ff88, #00bfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 12px 0;
+}
+
+.empty-state p {
+  color: #8888aa;
+  font-size: 1.1rem;
+  margin: 0;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    grid-template-columns: 1fr;
+  }
+
+  .main-content {
+    padding: 20px 16px;
+  }
+}

@@ -1,0 +1,30 @@
+Job Title: Senior Full-Stack Engineer
+Company: CloudScale Innovations
+Location: Remote (US) / San Francisco, CA
+Employment Type: Full-Time
+
+About the Role:
+We are looking for an experienced and passionate Senior Full-Stack Engineer to lead the design and development of our next-generation cloud analytics platform. You will collaborate with product designers, data engineers, and fellow software engineers to deliver robust, high-impact features from database to browser.
+
+Key Responsibilities:
+- Design, build, and maintain efficient, reusable, and reliable backend services and APIs using Python (FastAPI/Django).
+- Architect and develop modern, responsive user interfaces using React and TypeScript.
+- Design relational database schemas and optimize query performance with PostgreSQL and Redis caching.
+- Build and maintain CI/CD pipelines and containerized deployments using Docker and cloud infrastructure (AWS/GCP).
+- Write comprehensive unit, integration, and end-to-end tests to ensure software reliability.
+- Collaborate with product managers and cross-functional teams to define technical requirements and architecture.
+
+Required Qualifications:
+- 4+ years of professional full-stack software development experience.
+- Strong proficiency in Python with frameworks such as FastAPI, Flask, or Django.
+- Solid experience with modern frontend development using React, TypeScript, and modern state management.
+- Strong database knowledge with PostgreSQL, SQL optimization, and data modeling.
+- Experience with containerization using Docker and automated CI/CD workflows (e.g., GitHub Actions).
+- Proven track record of designing, building, and deploying RESTful APIs and microservices.
+- Experience with cloud platforms such as AWS or Google Cloud Platform.
+
+Preferred Qualifications:
+- Experience with LangChain, OpenAI APIs, or LLM-powered application development.
+- Familiarity with Kubernetes and container orchestration.
+- Knowledge of GraphQL APIs and WebSocket streaming.
+- Strong understanding of web security best practices (OAuth2, JWT, CORS, HTTPS).

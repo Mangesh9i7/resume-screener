@@ -1,0 +1,163 @@
+.candidate-card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
+              inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              box-shadow 0.4s ease;
+  animation: fadeInUp 0.5s ease forwards;
+  opacity: 0;
+}
+
+.candidate-card:hover {
+  transform: translateY(-6px) rotateX(1deg);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55),
+              inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.candidate-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.candidate-info {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+.candidate-rank {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.15);
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 48px;
+}
+
+.candidate-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.candidate-filename {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  color: #eee;
+  word-break: break-word;
+}
+
+/* Score Badge */
+.score-badge {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  flex-shrink: 0;
+  animation: pulseBadge 2.5s ease-in-out infinite;
+}
+
+.score-high {
+  background: linear-gradient(135deg, #008844, #00ff88);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.5),
+              0 0 40px rgba(0, 255, 136, 0.2);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.score-med {
+  background: linear-gradient(135deg, #aa6600, #ffaa00);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(255, 170, 0, 0.5),
+              0 0 40px rgba(255, 170, 0, 0.2);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.score-low {
+  background: linear-gradient(135deg, #880000, #ff4444);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(255, 68, 68, 0.5),
+              0 0 40px rgba(255, 68, 68, 0.2);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Skill Pills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-pill {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.skill-match {
+  background: rgba(0, 255, 136, 0.08);
+  border: 1px solid rgba(0, 255, 136, 0.25);
+  color: #00ff88;
+  text-shadow: 0 0 8px rgba(0, 255, 136, 0.3);
+}
+
+.skill-miss {
+  background: rgba(255, 68, 68, 0.08);
+  border: 1px solid rgba(255, 68, 68, 0.25);
+  color: #ff4444;
+  text-shadow: 0 0 8px rgba(255, 68, 68, 0.3);
+}
+
+/* Reasoning Toggle & Panel */
+.reasoning-toggle {
+  background: none;
+  border: none;
+  color: #888;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.82rem;
+  cursor: pointer;
+  padding: 10px 0 0 0;
+  transition: color 0.2s;
+  width: 100%;
+  text-align: left;
+}
+
+.reasoning-toggle:hover {
+  color: #00bfff;
+}
+
+.reasoning-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reasoning-open {
+  max-height: 500px;
+}
+
+.reasoning-text {
+  color: #99a;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  padding: 12px 0 0 0;
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: 10px;
+}

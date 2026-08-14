@@ -1,0 +1,136 @@
+.sidebar {
+  height: 100vh;
+  overflow-y: auto;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
+              inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.sidebar-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ccc;
+  margin: 0 0 16px 0;
+  letter-spacing: 0.5px;
+}
+
+.input-field {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 11px 14px;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: rgba(0, 191, 255, 0.5);
+  box-shadow: 0 0 0 2px rgba(0, 191, 255, 0.12);
+}
+
+.input-field::placeholder {
+  color: #666;
+}
+
+.textarea-field {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.btn-primary {
+  width: 100%;
+  background: linear-gradient(135deg, #6e48aa, #9d50bb);
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(110, 72, 170, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(110, 72, 170, 0.6);
+}
+
+.sidebar-empty {
+  color: #666;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.job-item {
+  padding: 12px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: all 0.25s ease;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.job-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.job-item-active {
+  border-left-color: #00ff88;
+  background: rgba(0, 255, 136, 0.06);
+}
+
+.job-item-title {
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+  color: #eee;
+}
+
+.job-item-desc {
+  display: block;
+  font-size: 0.78rem;
+  color: #777;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    height: auto;
+    padding: 16px;
+  }
+}

@@ -1,0 +1,23 @@
+.header {
+  margin-bottom: 2rem;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.header-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #00ff88, #00bfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 0.3rem 0;
+  line-height: 1.2;
+}
+
+.header-subtitle {
+  font-size: 1.15rem;
+  color: #8888aa;
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
